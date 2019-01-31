@@ -20,6 +20,7 @@ end
 
 def printer(attendees)
   new_array = batch_badge_creator(attendees)
+  new_array2 = assign_rooms(attendees)
   new_array.each do |string|
     puts string
   end
