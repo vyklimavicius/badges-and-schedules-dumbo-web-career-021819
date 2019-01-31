@@ -24,7 +24,11 @@ def printer(attendees)
   new_array.each do |string|
     puts string
   end
+  new_array2.each do |string|
+    puts string 
+  end 
 end 
+
 
 
 
